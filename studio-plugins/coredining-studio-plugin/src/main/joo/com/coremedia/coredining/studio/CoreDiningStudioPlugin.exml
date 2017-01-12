@@ -2,7 +2,7 @@
 <exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
                 xmlns="exml:ext.config"
                 xmlns:ui="exml:com.coremedia.ui.config"
-                xmlns:custom="exml:com.coremedia.coredining.studio.config"
+                xmlns:coredining="exml:com.coremedia.coredining.studio.config"
                 xmlns:editor="exml:com.coremedia.cms.editor.sdk.config" xmlns:tb="exml:ext.config">
 
   <exml:import class="com.coremedia.coredining.studio.CoreDiningDocumentTypes_properties"/>
@@ -62,7 +62,10 @@
         <plugins>
           <editor:addDocumentFormsPlugin>
             <editor:documentForms>
-              <custom:articleForm itemId="Article"/>
+              <coredining:articleForm itemId="Article"/>
+              <coredining:imageForm itemId="Image"/>
+              <coredining:topicForm itemId="Container"/>
+              <coredining:containerForm itemId="Topic"/>
             </editor:documentForms>
           </editor:addDocumentFormsPlugin>
         </plugins>
