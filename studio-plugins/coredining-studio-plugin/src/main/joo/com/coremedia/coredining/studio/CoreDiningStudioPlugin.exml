@@ -58,11 +58,22 @@
         </plugins>
       </editor:favoritesToolbar>
 
+      <coredining:articleForm>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <button itemId="siteJoeBob" text="SiteJoeBob">
+              </button>
+            </ui:items>
+          </ui:addItemsPlugin>
+        </plugins>
+      </coredining:articleForm>
+
       <editor:documentFormDispatcher>
         <plugins>
           <editor:addDocumentFormsPlugin>
             <editor:documentForms>
-              <coredining:articleForm itemId="Article"/>
+              <!--<coredining:articleForm itemId="Article"/>-->
               <coredining:imageForm itemId="Image"/>
               <coredining:topicForm itemId="Container"/>
               <coredining:containerForm itemId="Topic"/>
@@ -70,6 +81,16 @@
           </editor:addDocumentFormsPlugin>
         </plugins>
       </editor:documentFormDispatcher>
+
+      <editor:tabbedDocumentFormDispatcher>
+        <plugins>
+          <editor:addTabbedDocumentFormsPlugin>
+            <editor:documentTabPanels>
+              <coredining:articleForm itemId="Article"/>
+            </editor:documentTabPanels>
+          </editor:addTabbedDocumentFormsPlugin>
+        </plugins>
+      </editor:tabbedDocumentFormDispatcher>
     </ui:rules>
     <editor:configuration>
       <!-- there must be at least one dashlet configured to show the favorite toolbar -->

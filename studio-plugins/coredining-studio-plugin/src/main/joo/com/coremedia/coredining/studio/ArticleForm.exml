@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
                 xmlns="exml:ext.config"
-                xmlns:ui="exml:com.coremedia.ui.config"
-                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config" xmlns:tb="exml:ext.config">
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
 
 
-  <editor:documentForm>
+  <editor:documentTabPanel>
     <items>
-      <editor:stringPropertyField propertyName="title"/>
-      <editor:richTextPropertyField propertyName="text"/>
-      <editor:linkListPropertyField propertyName="image"/>
-      <editor:stringPropertyField propertyName="keywords"/>
-      <editor:stringPropertyField propertyName="homeTpic"/>
-    </items>
+      <editor:documentForm title="Tab 1">
+        <items>
+          <editor:stringPropertyField propertyName="title"/>
+          <editor:richTextPropertyField propertyName="text"/>
+          <!--<editor:imageLinkPropertyField propertyName="image" linkListContentType="Image" dataPropertyName="data"/>-->
+          <editor:linkListPropertyField propertyName="image" maxCardinality="3"/>
+          <editor:stringPropertyField propertyName="keywords"/>
+          <editor:linkListPropertyField propertyName="homeTopic"/>
+        </items>
 
-  </editor:documentForm>
+      </editor:documentForm>
+
+      <editor:metaDataPanel title="System Tab"/>
+    </items>
+  </editor:documentTabPanel>
+
 </exml:component>
