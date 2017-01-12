@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <import resource="classpath:com/coremedia/rest/cap/cap-rest-service.xml"/>
+  <import resource="classpath:com/coremedia/cap/common/uapi-services.xml"/>
+
+  <!--
+  | Example server side validator
+  |  <bean id="someDoctypeValidator" parent="contentTypeValidator">
+  |    <property name="contentType" value="SomeDocType"/>
+  |    <property name="validatingSubtypes" value="true"/>
+  |    <property name="validators">
+  |      <list>
+  |        add your validator beans here
+  |      </list>
+  |    </property>
+  |  </bean>
+  -->
+
+</beans>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <editor:studioPlugin>
+    <ui:rules>
+      <!--add your plugin rules here-->
+    </ui:rules>
+    <editor:configuration>
+      <!-- there must be at least one dashlet configured to show the favorite toolbar -->
+      <editor:configureDashboardPlugin>
+        <editor:types>
+          <editor:quickSearchWidgetType/>
+          <editor:simpleSearchWidgetType/>
+        </editor:types>
+      </editor:configureDashboardPlugin>
+    </editor:configuration>
+  </editor:studioPlugin>
+</exml:component>

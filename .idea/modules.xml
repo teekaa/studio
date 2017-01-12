@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/studio-plugins/controlroom-studio-plugin/controlroom-studio-plugin.iml" filepath="$PROJECT_DIR$/studio-plugins/controlroom-studio-plugin/controlroom-studio-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/coredining-studio-plugin.iml" filepath="$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/coredining-studio-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studio.iml" filepath="$PROJECT_DIR$/studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studio-plugins/studio-plugins.iml" filepath="$PROJECT_DIR$/studio-plugins/studio-plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studio-rest-extension/studio-rest-extension.iml" filepath="$PROJECT_DIR$/studio-rest-extension/studio-rest-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studio-webapp/studio-webapp.iml" filepath="$PROJECT_DIR$/studio-webapp/studio-webapp.iml" />
+    </modules>
+  </component>
+</project>

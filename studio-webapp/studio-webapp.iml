@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/target/jangaroo-output" relative="/" />
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="jangaroo" name="Jangaroo">
+      <configuration>
+        <option name="jangarooSdkName" value="Jangaroo SDK 2.0.12" />
+        <option name="enableAssertions" value="false" />
+        <option name="outputDirectory" value="file://$MODULE_DIR$/target/jangaroo-output/joo/classes" />
+        <option name="apiOutputDirectory" />
+        <option name="testOutputDirectory" value="file://$MODULE_DIR$/target/jangaroo-test-output/joo/classes" />
+        <option name="publicApiViolationsMode" value="WARN" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:base-nonblocking-component:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-service:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-spring:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:logging-component:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.janino:janino:2.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.janino:commons-compiler:2.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:management-component:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.training.coredining:sitemodel:7.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-unified-api:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-encryption:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-dispatch:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-id:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.guava:guava:14.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-multisite:7.1.5-10" level="project" />
+    <orderEntry type="module" module-name="coredining-studio-plugin" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.toolkit:ui-components:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jangaroo:ckeditor:2.0.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jangaroo:ext-as:2.0.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jangaroo.com.sencha:ext-js:3.4.1.1" level="project" />
+    <orderEntry type="module" module-name="studio-rest-extension" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui:cap-rest-service:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-search-solr:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-search-api:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-search-impl:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpcore:4.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpclient:4.3.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-transform:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.mortennobel:java-image-scaling:0.8.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.jhlabs:filters:2.0.235-1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:xliff-core:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.6.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-xliff:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-translate:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.solr:solr-solrj:4.10.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpmime:4.3.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.noggit:noggit:0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jvnet:mimepull:1.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-core:1.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-server:1.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: asm:asm:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui:coremedia-rest-core:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-servlet:1.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey.contribs:jersey-spring:1.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.mail:mail:1.4.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.13" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-schema-bundle:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.sdk:editor-components:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.toolkit:ext-ux:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jangaroo:jangaroo-runtime:2.0.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jangaroo:jangaroo-browser:2.0.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.toolkit:client-core:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.jangaroo:jangaroo-net:2.0.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.toolkit:client-core-impl:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.sdk:cap-rest-client-impl:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.sdk:cap-rest-client:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.collaboration:control-room-rest-client:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui.toolkit:coremedia-ext-theme:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui:editing-rest-component:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui:editing-rest-security:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-spring-security:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-jmx:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-beans:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-webmvc:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui:editing-rest-security-component:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.security:spring-security-core:3.2.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.security:spring-security-config:3.2.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.security:spring-security-web:3.2.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.ui:editing-rest-workflow-archive-component:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-workflow-archive-elastic:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.elastic.core:core-api:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.elastic.core:core-cms:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.elastic.core:core-base:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: cglib:cglib:2.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.elastic.core:core-mongodb:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.elastic.core:core-impl:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.elastic.core:core-util:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: asm:asm-commons:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: asm:asm-tree:3.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:mongo-java-driver:2.12.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jul-to-slf4j:1.7.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cae:cae-toolbox-studio-component:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cae:cae-toolbox-ui:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cae:cae-toolbox-rest:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cae:coremedia-rest-jmx:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-context:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-aop:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-expression:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-core:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework:spring-web:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.management:jmxremote_optional:1.0.1_03" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-client:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-cache:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-base:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-configuration-legacy:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-client-base:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: edu.tum.cs:cup-runtime:11a" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-workflow-protocol:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-corba:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-common:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: concurrent:concurrent:1.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-xml:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-io:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:1.7.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.json:json:20131018" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-core:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-classic:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-api:1.7.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tika:tika-core:1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tika:tika-parsers:1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.gagravarr:vorbis-java-tika:0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: edu.ucar:netcdf:4.2-min" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.james:apache-mime4j-core:0.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.james:apache-mime4j-dom:0.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-compress:1.4.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.tukaani:xz:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.pdfbox:pdfbox:1.8.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.pdfbox:fontbox:1.8.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.pdfbox:jempbox:1.8.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcmail-jdk15:1.45" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcprov-jdk15:1.45" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.poi:poi:3.10-beta2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.poi:poi-scratchpad:3.10-beta2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.poi:poi-ooxml:3.10-beta2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.poi:poi-ooxml-schemas:3.10-beta2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.googlecode.mp4parser:isoparser:1.0-RC-1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.aspectj:aspectjrt:1.7.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.drewnoakes:metadata-extractor:2.6.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.adobe.xmp:xmpcore:5.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: de.l3s.boilerpipe:boilerpipe:1.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: rome:rome:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jdom:jdom:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.googlecode.juniversalchardet:juniversalchardet:1.0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.uwyn:jhighlight:1.0" level="project" />
+  </component>
+</module>

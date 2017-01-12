@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui:cap-rest-service:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-multisite:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-client:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-base:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-configuration-legacy:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcprov-jdk15:1.45" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-client-base:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: edu.tum.cs:cup-runtime:11a" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:cap-workflow-protocol:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-corba:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-io:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.json:json:20131018" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-search-solr:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-search-api:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-search-impl:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.3.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-common:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-jmx:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: concurrent:concurrent:1.3.4" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-xml:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-spring:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-transform:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.mortennobel:java-image-scaling:0.8.5" level="project" />
+    <orderEntry type="library" name="Maven: com.jhlabs:filters:2.0.235-1" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-cache:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:xliff-core:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.6.5" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-xliff:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-schema-bundle:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-translate:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.solr:solr-solrj:4.10.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" level="project" />
+    <orderEntry type="library" name="Maven: org.noggit:noggit:0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:14.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.6" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.16" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet:mimepull:1.6" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.16" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-server:1.16" level="project" />
+    <orderEntry type="library" name="Maven: asm:asm:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:cap-unified-api:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-encryption:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-dispatch:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.cms:coremedia-id:7.1.5-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.coremedia.cms:coremedia-service:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui:coremedia-rest-core:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-servlet:1.16" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey.contribs:jersey-spring:1.16" level="project" />
+    <orderEntry type="library" name="Maven: javax.mail:mail:1.4.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.13" level="project" />
+  </component>
+</module>

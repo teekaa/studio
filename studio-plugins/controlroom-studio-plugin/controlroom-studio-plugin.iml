@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="jangaroo" name="Jangaroo">
+      <configuration>
+        <option name="jangarooSdkName" value="Jangaroo SDK 2.0.12" />
+        <option name="enableAssertions" value="false" />
+        <option name="outputDirectory" value="file://$MODULE_DIR$/target/classes/META-INF/resources/joo/classes" />
+        <option name="apiOutputDirectory" value="file://$MODULE_DIR$/target/classes/META-INF/joo-api" />
+        <option name="testOutputDirectory" value="file://$MODULE_DIR$/target/test-classes/joo/classes" />
+        <option name="publicApiViolationsMode" value="WARN" />
+      </configuration>
+    </facet>
+    <facet type="exml" name="EXML">
+      <configuration>
+        <option name="configClassPackage" value="com.coremedia.blueprint.studio.config.controlroom" />
+        <option name="generatedResourcesDirectory" value="file://$MODULE_DIR$/target/generated-resources" />
+        <option name="generatedSourcesDirectory" value="file://$MODULE_DIR$/target/generated-sources/joo" />
+        <option name="generatedTestSourcesDirectory" value="file://$MODULE_DIR$/target/generated-test-sources/joo" />
+        <option name="validationMode" value="WARN" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/joo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/joo" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-test-sources/joo" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
+      <excludeFolder url="file://$MODULE_DIR$/target/temp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.toolkit:ui-components:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: net.jangaroo:jangaroo-browser:2.0.11" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.toolkit:client-core:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: net.jangaroo:jangaroo-net:2.0.11" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.toolkit:client-core-impl:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: net.jangaroo:ckeditor:2.0.11" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.sdk:editor-components:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.toolkit:ext-ux:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: net.jangaroo:jangaroo-runtime:2.0.12" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.sdk:cap-rest-client-impl:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.collaboration:control-room-rest-client:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.toolkit:coremedia-ext-theme:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.collaboration:control-room-editor-components:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: com.coremedia.ui.sdk:cap-rest-client:7.1.5-10" level="project" />
+    <orderEntry type="library" name="Maven: net.jangaroo:ext-as:2.0.11" level="project" />
+    <orderEntry type="library" name="Maven: net.jangaroo.com.sencha:ext-js:3.4.1.1" level="project" />
+  </component>
+</module>
