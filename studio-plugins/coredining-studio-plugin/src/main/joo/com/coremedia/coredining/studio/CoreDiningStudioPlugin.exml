@@ -15,6 +15,10 @@
           <editor:simpleSearchWidgetType/>
         </editor:types>
       </editor:configureDashboardPlugin>
+
+      <editor:configureDocumentTypes names="PageLayout,ClientCode,Symbol" preview="false"/>
+      <editor:configureDocumentTypes names="Image" imageProperty="data" richTextDropImageProperty="data"/>
+      <editor:configureDocumentTypes names="Content_,Folder_,EditorPreferences,Dictionary,Query" exclude="true" excludeFromSearch="true"/>
     </editor:configuration>
   </editor:studioPlugin>
 </exml:component>
