@@ -58,7 +58,7 @@
         <version>${jangaroo.version}</version>
         <extensions>true</extensions>
         <configuration>
-          <configClassPackage>change.me.now.config</configClassPackage>
+          <configClassPackage>com.coremedia.coredining.studio.config</configClassPackage>
         </configuration>
       </plugin>
       <!--

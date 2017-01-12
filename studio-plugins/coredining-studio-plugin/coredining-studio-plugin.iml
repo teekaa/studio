@@ -13,7 +13,7 @@
     </facet>
     <facet type="exml" name="EXML">
       <configuration>
-        <option name="configClassPackage" value="change.me.now.config" />
+        <option name="configClassPackage" value="com.coremedia.coredining.studio.config" />
         <option name="generatedResourcesDirectory" value="file://$MODULE_DIR$/target/generated-resources" />
         <option name="generatedSourcesDirectory" value="file://$MODULE_DIR$/target/generated-sources/joo" />
         <option name="generatedTestSourcesDirectory" value="file://$MODULE_DIR$/target/generated-test-sources/joo" />
