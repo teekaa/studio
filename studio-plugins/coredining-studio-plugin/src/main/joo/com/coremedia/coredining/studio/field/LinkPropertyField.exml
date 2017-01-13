@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config" xmlns:tb="exml:ext.config"
+        baseClass="com.coremedia.coredining.studio.field.LinkPropertyFieldBase">
+
+
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>Beschreibung</exml:description>
+  </exml:cfg>
+
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Beschreibung</exml:description>
+  </exml:cfg>
+
+  <container cls="x-form-item" labelSeparator="" layout="form">
+      <items>
+        <label text="{config.propertyName}" cls="x-form-item-label" />
+        <panel>
+          <items>
+            <!--<editor:singleLinkField valueExpression="{config.bindTo.extendBy('properties', config.propertyName)}"/>-->
+            <editor:singleLinkField valueExpression="{getLinkListPropertyExpression()}"/>
+          </items>
+        </panel>
+      </items>
+  </container>
+
+
+</exml:component>
