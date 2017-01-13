@@ -24,12 +24,9 @@ public class DisableWhenEmptyPluginBase implements Plugin {
           btn.disable();
         }
       };
-
-
+      listValueExpression.addChangeListener(toggleButton);
+      toggleButton();
     }
-
-    listValueExpression.addChangeListener(toggleButton);
-    toggleButton();
   }
 }
 }

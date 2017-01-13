@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:coredining="exml:com.coremedia.coredining.studio.config"
+                baseClass="com.coremedia.coredining.studio.field.LinkPropertyFieldBase">
+
+  <exml:import class="com.coremedia.cms.editor.Editor_properties" />
+  <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLocalizationUtil" />
+  <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLifecycleUtil" />
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression" />
+  <exml:cfg name="propertyName" type="String" />
+  <container
+	  autoWidth="true"
+      cls="x-form-item"
+      labelSeparator=""
+      layout="form">
+    <items>
+      <label cls="x-form-item-label">
+        <plugins>
+          <editor:setPropertyLabelPlugin labelProperty="text"
+                                         propertyName="{config.propertyName}"
+                                         bindTo="{config.bindTo}" />
+        </plugins>
+      </label>
+      <panel>
+        <items>
+          <editor:singleLinkField valueExpression="{getLinkListPropertyExpression()}" autoExpandColumn="path">
+            <plugins>
+              <ui:bindListPlugin bindTo="{getLinkListPropertyExpression()}">
+                <ui:fields>
+                  <ui:dataField name="typeCls" mapping="type" convert="{ContentLocalizationUtil.getIconStyleClassForContentType}"/>
+                  <ui:dataField name="path" mapping="path"/>
+                  <ui:dataField name="status" mapping="" convert="{ContentLifecycleUtil.getDetailedLifecycleStatus}"/>
+                  <!-- TODO: add three datafields:
+                       "typeCls" : mapping to the type property, using ContentLocalUtil.getStyleClassForContentType for conversion
+                       "path" : mapping to the property "path"
+                       "status" : mapping to "" (no property, the bean itself) and converting using the static method 
+                                  ContentLifecycleUtil.getDetailedLifecycleStatus
+                  -->
+                </ui:fields>
+              </ui:bindListPlugin>
+              <editor:linkDropTargetPlugin valueExpression="{getLinkListPropertyExpression()}" />
+              <editor:resourceContextMenuPlugin>
+                <editor:menu>
+                  <editor:propertyFieldContextMenu />
+                </editor:menu>
+              </editor:resourceContextMenuPlugin>
+            </plugins>
+            <columns>
+              <editor:typeIconColumn/>
+              <gridcolumn id="path" dataIndex="path"/>
+              <editor:statusColumn/>
+              <!-- TODO: add three columns:
+                   - a predefined typeIconColumn 
+                   - a gridcolumn with ID "path" for rendering the dataIndex "path"
+                   - a predefined statusColumn
+              -->
+            </columns>
+          </editor:singleLinkField>
+        </items>
+        <tbar>
+          <toolbar cls="custom-toolbar-xs">
+            <items>
+              <ui:iconButton itemId="delete" handler="{removeLink}" iconCls="remove-icon">
+                <plugins>
+                  <coredining:disableWhenEmptyPlugin listValueExpression="{getLinkListPropertyExpression()}"/>
+                </plugins>
+              </ui:iconButton>
+              <ui:iconButton itemId="openInTab">
+                <baseAction>
+                  <editor:openInTabAction itemId="openInTab"
+                                          contentValueExpression="{getSelectedLinkExpression()}" />
+                </baseAction>
+              </ui:iconButton>
+            </items>
+          </toolbar>
+        </tbar>
+      </panel>
+    </items>
+  </container>
+</exml:component>
