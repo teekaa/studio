@@ -14,6 +14,8 @@
           <editor:imageLinkPropertyField propertyName="image" linkListContentType="Image" dataPropertyName="data"/>
           <editor:stringPropertyField propertyName="keywords"/>
           <coredining:linkPropertyField propertyName="homeTopic"/>
+          <coredining:linkPropertyField propertyName="view"/>
+          <coredining:linkPropertyField propertyName="master"/>
         </items>
 
       </editor:documentForm>

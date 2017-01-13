@@ -1,4 +1,5 @@
 package com.coremedia.coredining.studio.field {
+import com.coremedia.cap.content.Content;
 import com.coremedia.coredining.studio.config.linkPropertyField;
 import com.coremedia.ui.data.Bean;
 import com.coremedia.ui.data.ValueExpression;
@@ -59,14 +60,22 @@ public class LinkPropertyFieldBase extends Container {
       // TODO: use the ValueExpressionFactory to create a new instance
       // for the variable linkListValueExpression. Use method getModel()
       // as context and the arbitrary string "linkListProperty" as expression.
-      linkListPropertyExpression = ValueExpressionFactory.create("linkListProperty", getModel());
+      linkListPropertyExpression = ValueExpressionFactory.create("linkListPropertyValueExpression", getModel());
     }
     return linkListPropertyExpression;
   }
 
   public function getSelectedLinkExpression():ValueExpression {
     if (!selectedLinkExpression) {
-      selectedLinkExpression = ValueExpressionFactory.createSingleItemValueExpression(getLinkListPropertyExpression());
+//      selectedLinkExpression = ValueExpressionFactory.createSingleItemValueExpression(getLinkListPropertyExpression());
+
+      selectedLinkExpression = ValueExpressionFactory.createFromFunction(function () : Content {
+        var list:Array = getLinkListPropertyExpression().getValue() as Array;
+        if(list && list.length > 0) {
+          var content:Content = list[0];
+          return content;
+        }
+      });
     }
     return selectedLinkExpression;
   }
@@ -88,5 +97,9 @@ public class LinkPropertyFieldBase extends Container {
   private var linkListPropertyExpression:ValueExpression;
 
   private var selectedLinkExpression:ValueExpression;
+
+  public function removeLink():void {
+    getLinkListPropertyExpression().setValue([]);
+  }
 }
 }
