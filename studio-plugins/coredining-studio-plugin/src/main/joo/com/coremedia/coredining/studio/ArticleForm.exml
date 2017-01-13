@@ -17,6 +17,7 @@
           <!--<coredining:linkPropertyField propertyName="homeTopic"/>-->
           <coredining:linkPropertyField propertyName="view"/>
           <coredining:linkPropertyField propertyName="master"/>
+          <coredining:referrersField/>
         </items>
 
       </editor:documentForm>
