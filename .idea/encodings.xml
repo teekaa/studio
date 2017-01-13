@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/src/main/joo/com/coremedia/coredining/studio/CoreDiningDocumentTypes.properties" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/src/main/joo/com/coremedia/coredining/studio/CoreDiningDocumentTypes_de.properties" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/src/main/joo/com/coremedia/coredining/studio/CoreDiningValidators.properties" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/src/main/joo/com/coremedia/coredining/studio/CoreDiningValidators_de.properties" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/src/main/joo/com/coremedia/coredining/studio/field/LinkPropertyFieldBase.as" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/src/main/joo/com/coremedia/coredining/studio/field/PathLinkPropertyField.exml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/studio-plugins/coredining-studio-plugin/src/main/joo/com/coremedia/coredining/studio/plugins/DisableWhenEmptyPlugin.exml" charset="windows-1252" />

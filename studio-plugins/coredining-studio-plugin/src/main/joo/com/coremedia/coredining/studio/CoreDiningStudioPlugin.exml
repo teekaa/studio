@@ -7,6 +7,7 @@
 
   <exml:import class="com.coremedia.coredining.studio.CoreDiningDocumentTypes_properties"/>
   <exml:import class="com.coremedia.cms.editor.ContentTypes_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.validation.Validators_properties"/>
 
   <exml:import class="com.coremedia.cms.editor.Editor_properties"/>
   <exml:import class="com.coremedia.cms.editor.sdk.collectionview.CollectionViewConstants"/>
@@ -109,6 +110,7 @@
       <editor:configureDocumentTypes names="Content_,Folder_,EditorPreferences,Dictionary,Query" exclude="true" excludeFromSearch="true"/>
 
       <editor:copyResourceBundleProperties source="{CoreDiningDocumentTypes_properties}" destination="{ContentTypes_properties}"/>
+      <editor:copyResourceBundleProperties source="{CoreDiningValidators_properties}" destination="{Validators_properties}"/>
     </editor:configuration>
   </editor:studioPlugin>
 </exml:component>

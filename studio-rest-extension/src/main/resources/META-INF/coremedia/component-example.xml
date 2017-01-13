@@ -19,4 +19,25 @@
   |  </bean>
   -->
 
+  <bean id="articleValidator" parent="contentTypeValidator">
+    <property name="contentType" value="Article"/>
+    <property name="validatingSubtypes" value="true"/>
+    <property name="validators">
+       <list>
+         <bean class="com.coremedia.rest.cap.validators.LinkListMinLengthValidator">
+           <property name="property" value="homeTopic"/>
+           <property name="minLength" value="1"/>
+           <property name="severity" value="WARN"/>
+           <property name="code" value="tooShort"/>
+         </bean>
+         <bean class="com.coremedia.rest.cap.validators.LinkListMaxLengthValidator">
+           <property name="property" value="homeTopic"/>
+           <property name="maxLength" value="1"/>
+           <property name="severity" value="INFO"/>
+           <property name="code" value="tooLong"/>
+         </bean>
+       </list>
+    </property>
+  </bean>
+
 </beans>
