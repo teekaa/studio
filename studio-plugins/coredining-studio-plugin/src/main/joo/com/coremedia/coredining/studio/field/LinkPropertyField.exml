@@ -2,6 +2,7 @@
 <exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
                 xmlns="exml:ext.config"
                 xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:coredining="exml:com.coremedia.coredining.studio.config"
                 xmlns:editor="exml:com.coremedia.cms.editor.sdk.config" xmlns:tb="exml:ext.config"
         baseClass="com.coremedia.coredining.studio.field.LinkPropertyFieldBase">
 
@@ -16,6 +17,10 @@
   </exml:cfg>
 
   <container cls="x-form-item" labelSeparator="" layout="form">
+    <plugins>
+      <editor:setPropertyLabelPlugin bindTo="{config.bindTo}" propertyName="{config.propertyName}"
+                                     labelProperty="text"/>
+    </plugins>
       <items>
         <label text="{config.propertyName}" cls="x-form-item-label" />
         <panel>
@@ -27,6 +32,9 @@
             <toolbar cls="custom-toolbar-xs">
               <items>
                 <ui:iconButton itemId="delete" iconCls="remove-icon" handler="{removeLink}">
+                  <plugins>
+                    <coredining:disableWhenEmptyPlugin listValueExpression="{getLinkListPropertyExpression()}"/>
+                  </plugins>
                 </ui:iconButton>
                 <ui:iconButton itemId="openInTab">
                   <baseAction>
