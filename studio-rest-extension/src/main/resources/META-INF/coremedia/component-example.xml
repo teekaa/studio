@@ -19,6 +19,10 @@
   |  </bean>
   -->
 
+  <bean id="referrersResource" class="com.coremedia.coredining.studio.ReferrersResource">
+    <property name="connection" ref="connection"/>
+  </bean>
+
   <bean id="articleValidator" parent="contentTypeValidator">
     <property name="contentType" value="Article"/>
     <property name="validatingSubtypes" value="true"/>
