@@ -11,7 +11,7 @@
   <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLifecycleUtil" />
   <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression" />
   <exml:cfg name="propertyName" type="String" />
-  <container
+  <coredining:linkPropertyField
 	  autoWidth="true"
       cls="x-form-item"
       labelSeparator=""
@@ -79,5 +79,5 @@
         </tbar>
       </panel>
     </items>
-  </container>
+  </coredining:linkPropertyField>
 </exml:component>
