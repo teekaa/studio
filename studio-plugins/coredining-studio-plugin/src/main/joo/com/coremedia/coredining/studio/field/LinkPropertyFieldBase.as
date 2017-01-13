@@ -67,15 +67,15 @@ public class LinkPropertyFieldBase extends Container {
 
   public function getSelectedLinkExpression():ValueExpression {
     if (!selectedLinkExpression) {
-//      selectedLinkExpression = ValueExpressionFactory.createSingleItemValueExpression(getLinkListPropertyExpression());
+      selectedLinkExpression = ValueExpressionFactory.createSingleItemValueExpression(getLinkListPropertyExpression());
 
-      selectedLinkExpression = ValueExpressionFactory.createFromFunction(function () : Content {
-        var list:Array = getLinkListPropertyExpression().getValue() as Array;
-        if(list && list.length > 0) {
-          var content:Content = list[0];
-          return content;
-        }
-      });
+//      selectedLinkExpression = ValueExpressionFactory.createFromFunction(function () : Content {
+//        var list:Array = getLinkListPropertyExpression().getValue() as Array;
+//        if(list && list.length > 0) {
+//          var content:Content = list[0];
+//          return content;
+//        }
+//      });
     }
     return selectedLinkExpression;
   }

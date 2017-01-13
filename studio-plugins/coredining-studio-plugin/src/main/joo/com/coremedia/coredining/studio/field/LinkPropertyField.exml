@@ -27,8 +27,6 @@
             <toolbar cls="custom-toolbar-xs">
               <items>
                 <ui:iconButton itemId="delete" iconCls="remove-icon" handler="{removeLink}">
-                    <!--<editor:showCollectionViewAction text="{Editor_properties.INSTANCE.FavoritesToolbar_lastEdited_btn_text}" view="List"-->
-                                                     <!--lastEditedBy="{CollectionViewConstants.LAST_EDITED_BY_ME}"/>-->
                 </ui:iconButton>
                 <ui:iconButton itemId="openInTab">
                   <baseAction>
